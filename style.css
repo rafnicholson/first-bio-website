@@ -1,5 +1,17 @@
 body {
     background: lightcoral;
-    text-align: center;
     padding-top: 50px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#button {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
 }
