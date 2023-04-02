@@ -29,3 +29,7 @@ img {
     margin: 0 auto;
     display: block;
 }
+
+.circle {
+    border-radius: 50%;
+}
