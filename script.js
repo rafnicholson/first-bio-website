@@ -12,3 +12,16 @@ addingEventListener = () => {
 };
 
 addingEventListener();
+
+const phrases = {
+  greeting: "Hello there!",
+  time: () => {
+    const currentTime = new Date();
+    return `The time is ${currentTime.getHours()}:${currentTime.getMinutes()}`;
+  }
+}
+
+phrases.greeting;
+// => "Hello there!"
+phrases.time();
+// => "The time is 16:51" (or whatever time it is currently on a 24-hour clock)
